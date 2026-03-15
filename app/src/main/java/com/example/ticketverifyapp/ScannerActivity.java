@@ -137,7 +137,7 @@ public class ScannerActivity extends AppCompatActivity {
                         // 如果解析失敗（例如伺服器噴了非 JSON 的錯誤）
                         showPixelDialog(false, "系統錯誤: " + response.code(), null, code);
                     }
-                }
+                }   
             }
 
             @Override
